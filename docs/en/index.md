@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "极客先生"
-  text: "一个啥都爱研究的程序员..."
+  name: "Geekmister"
+  text: "Builting..."
   tagline: My great project tagline
   actions:
     - theme: brand
@@ -12,7 +12,7 @@ hero:
       link: /markdown-examples
     - theme: alt
       text: API Examples
-      link: /zh-CN/api-examples
+      link: /api-examples
 
 features:
   - title: Feature A
