@@ -17,16 +17,20 @@ export default defineConfig({
   title: "Geekmister",
   description: "Blog of Geekmister...",
   themeConfig: {
+    siteTitle: 'Geekmister',
+    logo: '/logo.png',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '专栏', 
+      { text: '创业项目', link: '/api-examples' },
+      { text: '心理研究', link: '/api-examples' },
+      { text: '信息技术', 
         items: [
-          { text: '前端', link: '/zh-CN/front-end' },
-          { text: '后端', link: '/zh-CN/back-end' }
+          { text: '前端开发', link: '/zh-CN/front-end' },
+          { text: '后端开发', link: '/zh-CN/back-end' }
         ]
       },
-      { text: '书', link: '/markdown-examples' },
       { text: '小册子', link: '/api-examples' },
+      { text: '书', link: '/markdown-examples' },
       { text: '关于', link: '/zh-CN/ops' }
     ],
 
