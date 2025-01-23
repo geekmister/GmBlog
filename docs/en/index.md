@@ -27,7 +27,7 @@ features:
 
 You can get started using VitePress right away using `npx`!
 
-```sh
+```bash
 npm init
 npx vitepress init
 ```
